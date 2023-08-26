@@ -55,6 +55,10 @@ button {
   margin: -1px;
 }
 
+.section {
+  padding: 50px 0;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -180,6 +184,17 @@ button {
 .soc-icon svg {
   fill: var(--firm-site-color);
   width: 25px;
+}
+
+.section-hero {
+  background-image: url(/images/01-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 480px;
+  background-position: -200px;
+}
+.section-hero img {
+  margin-left: auto;
 }
 
 .footer {

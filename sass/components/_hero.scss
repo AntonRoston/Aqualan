@@ -1,0 +1,12 @@
+.section-hero{
+    // background-color: var(--primary-white-color);
+    background-image: url(/images/01-background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 480px;
+    background-position: -200px;
+    // background-attachment: fixed;
+    & img{
+        margin-left: auto;
+    }
+}
