@@ -33,7 +33,7 @@
               <img src="./images/logo Аквалан Л.svg" alt="" width="150" />
             </a>
             <div class="menu" id="menu" data-menu>
-              <ul>
+              <ul class="site-nav">
                 <li class="menu__item">
                   <a class="menu__link menu__link--current" href="#advantaches"
                     >Переваги
@@ -43,21 +43,27 @@
                   <a class="menu__link" href="#search">Де купити?</a>
                 </li>
               </ul>
-              <ul class="soc-icon">
-                <li>
-                  <a href=""
-                    ><svg width="30" height="30">
-                      <use href="./images/sprite.svg#icon-facebook"></use></svg
-                  ></a>
-                </li>
-                <li>
-                  <a href=""
-                    ><svg width="30" height="30">
-                      <use href="./images/sprite.svg#icon-instagram"></use></svg
-                  ></a>
-                </li>
-              </ul>
-              <a href="">Знайти зі знижкою</a>
+              <div class="soc-con">
+                <ul class="soc-icon">
+                  <li class="menu__item">
+                    <a class="site-icon" href=""
+                      ><svg width="30" height="30">
+                        <use
+                          href="./images/sprite.svg#icon-facebook"
+                        ></use></svg
+                    ></a>
+                  </li>
+                  <li class="menu__item">
+                    <a class="site-icon" href=""
+                      ><svg width="30" height="30">
+                        <use
+                          href="./images/sprite.svg#icon-instagram"
+                        ></use></svg
+                    ></a>
+                  </li>
+                </ul>
+                <div><a class="btn" href="#">Знайти зі знижкою</a></div>
+              </div>
             </div>
 
             <button
@@ -90,9 +96,12 @@
     <main>
       <section class="section section-hero">
         <div class="container">
-          <h1>Аквалан Л <span>крем</span></h1>
-          <p>щоденний долгялд малюка!</p>
-          <img src="./images/akvalan_tubik.webp" alt="фото крем" height="300" />
+          <div class="hero_title">
+            <h1>Аквалан Л <span>крем</span></h1>
+            <p>щоденний догляд малюка!</p>
+          </div>
+
+          <img src="./images/akvalan_tubik.webp" alt="фото крем" height="350" />
         </div>
       </section>
       <section class="section section-disease">
