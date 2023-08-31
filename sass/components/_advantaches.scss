@@ -31,6 +31,7 @@
 
 .adv-con_02{
     margin-bottom: 50px;
+    margin-top: 100px;
 }
 .adv-con_03{
     display: flex;
@@ -50,10 +51,72 @@
             flex-direction: row;
                 flex-wrap: wrap;
                 gap: 10px;
+            display: flex;
+
     }
+
+        .adv-item{
+            display: flex;
+            width: 350px;
+            height: 200px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+        }
 }
 
+@media screen and (min-width: 1140px) {
+    .adv-con_02{
+        background-image:url(/images/akvalan_tubik.webp), url(/images/mazok.webp);
+        background-position: center 50px, center 200px;
+        background-size: 300px, 400px;
+        background-repeat: no-repeat;
+    }
 
-@media screen and (min-width: 1140px){
+    .adv-items {
+        height: 90vh;
+        width: 1110px;
+        position: relative;
+    }
 
+    .adv-item {
+        position: absolute;
+        width: 350px;
+        height: auto;
+
+        &:nth-child(1) {
+
+        }
+
+        &:nth-child(2) {
+            right: 0;
+        }
+
+        &:nth-child(3) {
+            top: 20%;
+        }
+
+        &:nth-child(4) {
+            right: 0;
+            top: 20%;
+        }
+
+        &:nth-child(5) {
+            top: 40%;
+        }
+
+        &:nth-child(6) {
+            right: 0;
+            top: 40%;
+        }
+
+        &:nth-child(7) {
+            top: 60%;
+        }
+
+        &:nth-child(8) {
+            top: 60%;
+            right: 0;
+        }
+    }
 }

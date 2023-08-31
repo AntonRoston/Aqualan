@@ -424,6 +424,7 @@ button {
 
 .adv-con_02 {
   margin-bottom: 50px;
+  margin-top: 100px;
 }
 
 .adv-con_03 {
@@ -452,6 +453,65 @@ button {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .adv-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 350px;
+    height: 200px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media screen and (min-width: 1140px) {
+  .adv-con_02 {
+    background-image: url(/images/akvalan_tubik.webp), url(/images/mazok.webp);
+    background-position: center 50px, center 200px;
+    background-size: 300px, 400px;
+    background-repeat: no-repeat;
+  }
+  .adv-items {
+    height: 90vh;
+    width: 1110px;
+    position: relative;
+  }
+  .adv-item {
+    position: absolute;
+    width: 350px;
+    height: auto;
+  }
+  .adv-item:nth-child(2) {
+    right: 0;
+  }
+  .adv-item:nth-child(3) {
+    top: 20%;
+  }
+  .adv-item:nth-child(4) {
+    right: 0;
+    top: 20%;
+  }
+  .adv-item:nth-child(5) {
+    top: 40%;
+  }
+  .adv-item:nth-child(6) {
+    right: 0;
+    top: 40%;
+  }
+  .adv-item:nth-child(7) {
+    top: 60%;
+  }
+  .adv-item:nth-child(8) {
+    top: 60%;
+    right: 0;
   }
 }
 .search-title {
