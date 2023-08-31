@@ -455,7 +455,11 @@ button {
   }
 }
 .search-title {
+  position: relative;
   margin-bottom: 20px;
+}
+.search-title__img {
+  display: none;
 }
 
 .search-text {
@@ -508,6 +512,22 @@ button {
 }
 
 @media screen and (min-width: 768px) {
+  .search-title__img {
+    display: block;
+    position: absolute;
+    top: -780%;
+    left: 60%;
+    overflow: hidden;
+  }
+  .search {
+    height: 700px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .search-set {
     display: -webkit-box;
     display: -ms-flexbox;

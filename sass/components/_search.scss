@@ -1,9 +1,12 @@
 .search{
-    // display: flex;
 }
 
 .search-title{
+    position: relative;
     margin-bottom: 20px;
+    &__img{
+        display: none;
+    }
 }
 
 .search-text{
@@ -43,6 +46,23 @@
 
 
 @media screen and (min-width: 768px){
+
+.search-title__img{
+    display: block;
+    position: absolute;
+    top: -780%;
+    left: 60%;
+    overflow: hidden;
+
+}
+
+
+    .search {
+        height: 700px;
+            display: flex;
+                align-items: center;
+    }
+
     .search-set {
             display: flex;
             flex-direction: row;
