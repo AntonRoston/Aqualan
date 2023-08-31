@@ -3,5 +3,83 @@
     padding: 20px;
     text-align: start;
     border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.dis-item{
+// position: relative;
+// display: flex;
+color: var(--accent-color);
+font-size: 20px;
+}
+.dis-item::before{
+    display: inline-flex;
     
+    // position: absolute;
+    content: '';
+    text-align: center;
+    width: 10px;
+    height: 10px;
+    background-color: var(--accent-color);
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.dis-text{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.dis-des{
+    font-size: 12px;
+
+
+}
+
+
+
+@media screen and (min-width: 768px){
+.dis-con {
+    
+        background-image: url(/images/02-background.webp);
+        background-size: 370px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        ;
+    }
+
+        .dis-text {
+            max-width: 450px;
+            font-size: 20px;
+            text-align: start;
+        }
+    
+        .dis-des {
+            font-size: 12px;
+            text-align: start;
+            max-width: 450px;
+        }
+}
+
+@media screen and (min-width: 1140px){
+    .dis-item {
+            font-size: 24px;
+        }
+.dis-con {
+    height: 500px;
+        background-image: url(/images/02-background.webp);
+        background-size: 470px;
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        ;
+    }
+
+    .dis-text {
+        max-width: 600px;
+        font-size: 24px;
+    }
+
+    .dis-des {
+        font-size: 14px;
+        max-width: 600px;
+    }
 }
