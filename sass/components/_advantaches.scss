@@ -79,7 +79,7 @@
 
         & img{
             position: absolute;
-            bottom: 75px;
+            bottom: 9%;
         }
     }
 
@@ -93,10 +93,11 @@
         position: absolute;
         width: 350px;
         height: auto;
+        transition: transform 0.3s ease;
 
         &:nth-child(1) {
             transform: rotate(10deg);
-            transition: transform 0.3s ease;
+            // transition: transform 0.3s ease;
                
         }
 

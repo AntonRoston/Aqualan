@@ -515,7 +515,7 @@ button {
   }
   .adv-con_02 img {
     position: absolute;
-    bottom: 75px;
+    bottom: 9%;
   }
   .adv-items {
     height: 90vh;
@@ -526,14 +526,14 @@ button {
     position: absolute;
     width: 350px;
     height: auto;
-  }
-  .adv-item:nth-child(1) {
-    -webkit-transform: rotate(10deg);
-            transform: rotate(10deg);
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
     transition: transform 0.3s ease;
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  }
+  .adv-item:nth-child(1) {
+    -webkit-transform: rotate(10deg);
+            transform: rotate(10deg);
   }
   .adv-item:nth-child(2) {
     right: 0;
