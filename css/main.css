@@ -508,7 +508,7 @@ button {
 @media screen and (min-width: 1140px) {
   .adv-con_02 {
     position: relative;
-    background-image: url(/images/akvalan_tubik.webp), url(/images/mazok.webp);
+    background-image: url(../images/akvalan_tubik.webp), url(../images/mazok.webp);
     background-position: center 0, center 120px;
     background-size: 300px, 400px;
     background-repeat: no-repeat;
