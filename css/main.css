@@ -307,10 +307,9 @@ br {
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
-  max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
-  background-position: -200px 20px;
+  background-position: center;
 }
 .section-hero .hero_title {
   background-color: var(--primary-white-color);
@@ -334,7 +333,7 @@ br {
 }
 @media screen and (min-width: 768px) {
   .section-hero {
-    background-position: -150px;
+    background-position: 0;
     height: 100%;
   }
   .section-hero .hero_title {
@@ -348,11 +347,9 @@ br {
 }
 
 @media screen and (min-width: 1140px) {
-  .section-hero .container {
-    width: 768px;
-  }
   .section-hero {
-    background-position: 0;
+    background-size: 1450px;
+    background-position: center;
   }
 }
 .dis-con h2 {
