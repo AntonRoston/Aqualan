@@ -29,6 +29,8 @@
     border-radius: 5px;
     width: 250px;
     height: 60px;
+
+    margin-bottom: 20px;
         &:hover {
                 background-color: var(--accent-color);
                 transform: scale(1.02);
@@ -36,9 +38,9 @@
             }
 }
 
-.search-set__item:not(:last-child){
-    margin-bottom: 20px;
-}
+// .search-set__item:not(:last-child){
+//     margin-bottom: 20px;
+// }
 
 .search-set__item--02 {
     background-color: #94140a;
