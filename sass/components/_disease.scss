@@ -66,25 +66,28 @@ font-size: 20px;
 }
 
 @media screen and (min-width: 1140px){
-    .dis-item {
-            font-size: 24px;
-        }
-.dis-con {
-    height: 500px;
-        background-image: url(/images/02-background.webp);
-        background-size: 470px;
-        background-repeat: no-repeat;
-        background-position: bottom right;
-        ;
-    }
+.section-disease .container{
+    width: 768px;
+}
+//     .dis-item {
+//             font-size: 24px;
+//         }
+// .dis-con {
+//     height: 500px;
+//         background-image: url(../images/02-background.webp);
+//         background-size: 470px;
+//         background-repeat: no-repeat;
+//         background-position: bottom right;
+//         ;
+//     }
 
-    .dis-text {
-        max-width: 600px;
-        font-size: 24px;
-    }
+//     .dis-text {
+//         max-width: 600px;
+//         font-size: 24px;
+//     }
 
-    .dis-des {
-        font-size: 14px;
-        max-width: 600px;
-    }
+//     .dis-des {
+//         font-size: 14px;
+//         max-width: 600px;
+//     }
 }

@@ -58,6 +58,11 @@ button {
   margin: -1px;
 }
 
+br {
+  margin: 0;
+  padding: 0;
+}
+
 .section {
   padding: 50px 0;
 }
@@ -302,7 +307,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
-  max-width: 1600px;
+  max-width: 1140px;
   margin-left: auto;
   margin-right: auto;
   background-position: -200px 20px;
@@ -342,6 +347,11 @@ button {
   }
 }
 
+@media screen and (min-width: 1140px) {
+  .section-hero .container {
+    width: 768px;
+  }
+}
 .dis-con h2 {
   margin-bottom: 20px;
 }
@@ -400,41 +410,38 @@ button {
   }
 }
 @media screen and (min-width: 1140px) {
-  .dis-item {
-    font-size: 24px;
-  }
-  .dis-con {
-    height: 500px;
-    background-image: url(/images/02-background.webp);
-    background-size: 470px;
-    background-repeat: no-repeat;
-    background-position: bottom right;
-  }
-  .dis-text {
-    max-width: 600px;
-    font-size: 24px;
-  }
-  .dis-des {
-    font-size: 14px;
-    max-width: 600px;
+  .section-disease .container {
+    width: 768px;
   }
 }
-.section-advantaches {
+.adv-con_01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-image: url(../images/03-background.webp);
   background-size: 100vw;
+  height: 500px;
+  margin: auto;
   background-attachment: fixed;
   -webkit-box-shadow: inset 0 20px 25px -5px var(--firm-site-color), inset 0 -20px 25px -5px var(--firm-site-color);
           box-shadow: inset 0 20px 25px -5px var(--firm-site-color), inset 0 -20px 25px -5px var(--firm-site-color);
 }
 
 .adv-text {
+  max-width: 768px;
   background-color: var(--primary-white-color);
   border-radius: 20px;
   padding: 20px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
 .adv-des {
+  max-width: 768px;
+  margin: 0 auto;
   font-weight: 500;
   margin-bottom: 20px;
 }
@@ -452,7 +459,6 @@ button {
 }
 
 .adv-con_02 {
-  margin-bottom: 50px;
   margin-top: 100px;
 }
 
@@ -463,14 +469,25 @@ button {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 1;
+  height: 350px;
+  padding: 15px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(30%, var(--firm-site-color)), to(#9BB5EA));
+  background: linear-gradient(to right, var(--firm-site-color) 30%, #9BB5EA);
+  -webkit-box-shadow: inset 0 37px 25px -5px var(--firm-site-color), inset 0 -31px 22px -5px var(--firm-site-color);
+          box-shadow: inset 0 37px 25px -5px var(--firm-site-color), inset 0 -31px 22px -5px var(--firm-site-color);
 }
 .adv-con_03 span {
   font-size: 6rem;
-  font-weight: 900;
+  font-weight: 300;
 }
 .adv-con_03 p {
   font-size: 30px;
   font-weight: 500;
+  text-align: center;
 }
 .adv-con_03 svg {
   -webkit-transform: rotate(-10deg);
@@ -506,6 +523,9 @@ button {
   }
 }
 @media screen and (min-width: 1140px) {
+  .section-advantaches {
+    padding-bottom: 0;
+  }
   .adv-con_02 {
     position: relative;
     background-image: url(../images/akvalan_tubik.webp), url(../images/mazok.webp);
@@ -515,10 +535,10 @@ button {
   }
   .adv-con_02 img {
     position: absolute;
-    bottom: 9%;
+    bottom: 0%;
   }
   .adv-items {
-    height: 90vh;
+    height: 750px;
     width: 1110px;
     position: relative;
   }
@@ -541,7 +561,7 @@ button {
             transform: rotate(-10deg);
   }
   .adv-item:nth-child(3) {
-    top: 20%;
+    top: 25%;
     -webkit-transform: rotate(-4deg);
             transform: rotate(-4deg);
   }
@@ -552,7 +572,7 @@ button {
             transform: rotate(-6deg);
   }
   .adv-item:nth-child(5) {
-    top: 40%;
+    top: 45%;
     -webkit-transform: rotate(-10deg);
             transform: rotate(-10deg);
   }
@@ -563,7 +583,7 @@ button {
             transform: rotate(6deg);
   }
   .adv-item:nth-child(7) {
-    top: 60%;
+    top: 65%;
     -webkit-transform: rotate(-7deg);
             transform: rotate(-7deg);
   }
@@ -646,14 +666,15 @@ button {
 
 @media screen and (min-width: 768px) {
   .search-title__img {
+    height: 325px;
     display: block;
     position: absolute;
-    top: -780%;
-    left: 60%;
+    top: -620%;
+    left: 65%;
     overflow: hidden;
   }
   .search {
-    height: 500px;
+    height: 400px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -691,6 +712,14 @@ button {
   }
   .search-set__item:nth-child(n) {
     margin-right: 20px;
+  }
+  .search-title__img {
+    height: 400px;
+    display: block;
+    position: absolute;
+    top: -780%;
+    left: 60%;
+    overflow: hidden;
   }
 }
 .info-con svg {

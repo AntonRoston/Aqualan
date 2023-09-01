@@ -53,17 +53,18 @@
 @media screen and (min-width: 768px){
 
 .search-title__img{
-    display: block;
-    position: absolute;
-    top: -780%;
-    left: 60%;
-    overflow: hidden;
+    height: 325px;
+        display: block;
+        position: absolute;
+        top: -620%;
+        left: 65%;
+        overflow: hidden;
 
 }
 
 
     .search {
-        height: 500px;
+        height: 400px;
             display: flex;
                 align-items: flex-end;
     }
@@ -91,4 +92,13 @@
             .search-set__item:nth-child(n) {
             margin-right: 20px;
             }
+                        .search-title__img {
+                            height: 400px;
+                            display: block;
+                            position: absolute;
+                            top: -780%;
+                            left: 60%;
+                            overflow: hidden;
+            
+                        }
 }
