@@ -7,6 +7,13 @@
     background-color: var(--primary-text-color);
     width: 40px;
     height: 40px;
+    fill: var(--firm-site-color);
+
+    &:hover {
+            background-color: var(--accent-color);
+            fill: var(--primary-text-color);
+                transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        }
 }
 
 .soc-icon a {
@@ -17,10 +24,15 @@
     height: 40px;
     background-color: var(--primary-text-color);
     border-radius: 50%;
+    
 }
 .soc-icon svg {
-    fill: var(--firm-site-color);
+    // fill: var(--firm-site-color);
     width: 25px;
+    height: 25px;
+        // &:hover {
+        //         fill: var(--primary-text-color);
+        //     }
 }
 
 
@@ -30,7 +42,19 @@
     padding: 12px 24px;
     border-radius: 10px;
     // width: 100%;
+    transform: scale(1);
 
+    &:hover{
+        background-color: var(--accent-color);
+        transform: scale(1.02);
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+}
+
+.menu__item:hover{
+color: var(--accent-color);
+transform: scale(1.1);
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 767px){
@@ -79,7 +103,7 @@
         }
     
         .soc-icon svg {
-            fill: var(--firm-site-color);
+            // fill: var(--firm-site-color);
             width: 20px;
             
         }
