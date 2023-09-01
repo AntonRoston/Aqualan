@@ -530,7 +530,7 @@ br {
     position: relative;
     background-image: url(../images/akvalan_tubik.webp), url(../images/mazok.webp);
     background-position: center 0, center 120px;
-    background-size: 300px, 400px;
+    background-size: 250px, 300px;
     background-repeat: no-repeat;
   }
   .adv-con_02 img {
@@ -541,10 +541,11 @@ br {
     height: 750px;
     width: 1110px;
     position: relative;
+    font-size: 16px;
   }
   .adv-item {
     position: absolute;
-    width: 350px;
+    width: 300px;
     height: auto;
     -webkit-transition: -webkit-transform 0.3s ease;
     transition: -webkit-transform 0.3s ease;
@@ -552,44 +553,48 @@ br {
     transition: transform 0.3s ease, -webkit-transform 0.3s ease;
   }
   .adv-item:nth-child(1) {
+    left: 8%;
     -webkit-transform: rotate(10deg);
             transform: rotate(10deg);
   }
   .adv-item:nth-child(2) {
-    right: 0;
+    right: 8%;
     -webkit-transform: rotate(-10deg);
             transform: rotate(-10deg);
   }
   .adv-item:nth-child(3) {
+    left: 8%;
     top: 25%;
     -webkit-transform: rotate(-4deg);
             transform: rotate(-4deg);
   }
   .adv-item:nth-child(4) {
-    right: 0;
+    right: 8%;
     top: 20%;
     -webkit-transform: rotate(-6deg);
             transform: rotate(-6deg);
   }
   .adv-item:nth-child(5) {
+    left: 8%;
     top: 45%;
     -webkit-transform: rotate(-10deg);
             transform: rotate(-10deg);
   }
   .adv-item:nth-child(6) {
-    right: 0;
+    right: 8%;
     top: 40%;
     -webkit-transform: rotate(6deg);
             transform: rotate(6deg);
   }
   .adv-item:nth-child(7) {
+    left: 8%;
     top: 65%;
     -webkit-transform: rotate(-7deg);
             transform: rotate(-7deg);
   }
   .adv-item:nth-child(8) {
     top: 60%;
-    right: 0;
+    right: 8%;
     -webkit-transform: rotate(10deg);
             transform: rotate(10deg);
   }
