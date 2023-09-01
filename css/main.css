@@ -311,7 +311,7 @@ br {
   height: 480px;
   margin-left: auto;
   margin-right: auto;
-  background-position: center;
+  background-position: -150px;
 }
 .section-hero .hero_title {
   background-color: var(--primary-white-color);
@@ -335,7 +335,7 @@ br {
 }
 @media screen and (min-width: 768px) {
   .section-hero {
-    background-position: 0;
+    background-position: 10%;
     height: 100%;
   }
   .section-hero .hero_title {
@@ -406,7 +406,7 @@ br {
     display: block;
     position: absolute;
     bottom: -60px;
-    right: -25px;
+    right: 0px;
     width: 450px;
     z-index: -1;
   }
@@ -685,11 +685,11 @@ br {
 
 @media screen and (min-width: 768px) {
   .search-title__img {
-    height: 325px;
+    height: 290px;
     display: block;
     position: absolute;
     top: -620%;
-    left: 75%;
+    left: 70%;
     overflow: hidden;
   }
   .search {

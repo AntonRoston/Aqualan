@@ -9,7 +9,7 @@
         margin-left: auto;
         margin-right: auto;
     // max-width: 1500px;
-    background-position: center;
+    background-position: -150px;
 
     
     // background-attachment: fixed;
@@ -22,6 +22,7 @@
     & img{
         margin-left: auto;
     }
+
     @media screen and (min-width: 480px){
 
             background-position: -150px;
@@ -39,7 +40,7 @@
 
     @media screen and (min-width: 768px){
         & {
-                background-position: 0;
+                background-position: 10%;
             height: 100%;
                 & .hero_title {
                     margin-left: auto;
