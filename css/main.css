@@ -383,7 +383,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .dis-con {
-    background-image: url(/images/02-background.webp);
+    background-image: url(../images/02-background.webp);
     background-size: 370px;
     background-repeat: no-repeat;
     background-position: bottom right;
