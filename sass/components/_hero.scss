@@ -39,7 +39,7 @@
 
     @media screen and (min-width: 768px){
         & {
-                background-position: center;
+                background-position: -150px;
             height: 100%;
                 & .hero_title {
                     margin-left: auto;
@@ -58,4 +58,8 @@
 .section-hero .container {
         width: 768px;
     }
+
+        .section-hero{
+            background-position: 0;
+        }
 }
