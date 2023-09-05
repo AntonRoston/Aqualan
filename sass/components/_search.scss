@@ -33,7 +33,7 @@
     margin-bottom: 20px;
         &:hover {
                 // background-color: var(--accent-color);
-                outline: 2px solid var(--accent-color);
+                box-shadow: inset 0px 0px 0px 2px var(--accent-color);
                 transform: scale(1.02);
                 transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
             }
