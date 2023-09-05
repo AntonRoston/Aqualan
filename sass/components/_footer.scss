@@ -12,11 +12,14 @@
 .footer-logo {
     fill: var(--primary-white-color);
     width: 200px;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transform: scale(1);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-logo:hover {
-    fill: var(--accent-color);
+    // fill: var(--accent-color);
+        transform: scale(1.02);
+            transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer__text {
@@ -37,8 +40,8 @@
     height: 50px;
     border-radius: 50%;
     background-color: var(--primary-white-color);
-
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transform: scale(1);
+    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-site-soc__icon:not(:first-child) {
@@ -52,7 +55,9 @@
 }
 
 .footer-site-soc__icon>a:hover {
-    background-color: var(--accent-color);
+    // background-color: var(--accent-color);
+    transform: scale(1.1);
+        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
